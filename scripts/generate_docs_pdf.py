@@ -407,3 +407,4 @@ def build_pdf(filename="BullzAI_Project_Documentation.pdf"):
 
 if __name__ == '__main__':
     build_pdf()
+
