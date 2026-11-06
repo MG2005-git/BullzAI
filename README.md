@@ -9,6 +9,9 @@
     <img src="https://img.shields.io/badge/Tests-32%20Passing-10b981?style=flat-square" alt="Tests Passing" />
     <img src="https://img.shields.io/badge/Markets-NSE%20%2F%20BSE-f59e0b?style=flat-square" alt="NSE / BSE" />
   </p>
+
+  <br />
+  <img src="assets/demo.jpg" alt="BullzAI Live Demonstration on LiveMint" width="100%" style="border-radius: 10px;" />
 </div>
 
 <br />
