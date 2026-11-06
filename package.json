@@ -1,0 +1,25 @@
+{
+  "name": "bullz-ai",
+  "version": "0.2.0",
+  "private": true,
+  "description": "BullzAI: Institutional-grade real-time stock intelligence, AI market sentiment, and interactive charts for Indian markets.",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "watch": "node build.mjs --watch",
+    "generate:icons": "node scripts/generateIcons.mjs",
+    "build:dictionary": "node scripts/buildCompanyDictionary.mjs",
+    "verify:indices": "node scripts/verifyIndexSymbols.mjs",
+    "verify:news": "node scripts/verifyNews.mjs",
+    "test": "node scripts/testMatching.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "lightweight-charts": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.268",
+    "esbuild": "^0.23.1",
+    "typescript": "^5.5.4"
+  }
+}

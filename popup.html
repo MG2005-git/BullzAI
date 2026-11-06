@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>BullzAI — Stock Intelligence & Watchlist</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header class="bullz-header">
+      <div class="bullz-brand-row">
+        <div class="bullz-logo-badge">&#9889; BullzAI</div>
+        <div class="bullz-status-pill">&#9679; LIVE INTEL</div>
+      </div>
+      <!-- Market Pulse: Quick Nifty & Sensex Indices Bar -->
+      <div class="bullz-market-pulse" id="bullz-market-pulse">
+        <div class="pulse-item" id="pulse-nifty">
+          <span class="pulse-name">NIFTY 50</span>
+          <span class="pulse-val" id="nifty-val">&#8230;</span>
+        </div>
+        <div class="pulse-item" id="pulse-sensex">
+          <span class="pulse-name">SENSEX</span>
+          <span class="pulse-val" id="sensex-val">&#8230;</span>
+        </div>
+      </div>
+      <div class="bullz-search-wrap">
+        <input type="text" id="bullz-search" placeholder="Search watchlist..." spellcheck="false" />
+      </div>
+    </header>
+    <div id="wl-list" class="wl-list"></div>
+    <footer class="bullz-footer">
+      Hover any stock on supported news sites to scan &amp; chart.
+    </footer>
+    <script src="popup.js"></script>
+  </body>
+</html>
