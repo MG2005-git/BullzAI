@@ -1,6 +1,6 @@
 <div align="center">
   <img src="icons/icon128.png" width="76" height="76" alt="BullzAI Logo" />
-  <h1>BullzAI</h1>
+  <h1>BullzAI: AI Powered Stock Discovery Chrome Extension </h1>
   <p><b>Live Indian stock prices, candlestick charts, and AI-curated sentiment directly on financial news pages.</b></p>
 
   <p>
