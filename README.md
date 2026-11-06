@@ -145,6 +145,6 @@ To enable AI sentiment scoring and headline summaries:
 
 ---
 
-## License
+<!-- ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE). -->
